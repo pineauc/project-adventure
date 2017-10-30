@@ -3,10 +3,9 @@
 
 // Libraries
 #include <string>
-#include <fstream>
 
 // Namespace
-using namespace std;
+using std::string;
 
 /**
  *	Maintains player data.
