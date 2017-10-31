@@ -33,7 +33,7 @@ private:
 	int hitpoints;
 
 	// Mutators
-	void setName(string);
+	void setName( string );
 };
 
 #endif
