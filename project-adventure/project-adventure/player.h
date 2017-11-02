@@ -27,21 +27,20 @@ public:
 	// Mutators
 	void	setHealth( int );
 	void	setArmor( int );
+	void	equip( int );
 
 	// Accessors
+	string	getName();
 	int		getHealth();
 	int		getArmor();
-	string	getName();
 
 	// Character body
 	int		head();
 	int		torso();
-	int		r_hand();
-	int		l_hand();
-	int		r_leg();
-	int		l_leg();
-	int		r_foot();
-	int		l_foot();
+	int		hands();
+	int		legs();
+	int		feet();
+	bool	isEquipped();
 
 private:
 	// Instance data
